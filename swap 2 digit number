@@ -1,0 +1,22 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        if(n<=9){
+            System.out.println("STDOUT");
+        }else{
+        String s1=String.valueOf(n);     
+           
+               System.out.println(s1.charAt(1)+""+s1.charAt(0));
+        }   
+        
+    }
+}
